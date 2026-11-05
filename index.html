@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="A heart made from I love you in languages from around the world." />
+    <title>Love Heart</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="stage" aria-label="A heart formed from love in many languages">
+      <canvas id="love-heart" role="img" aria-label="Animated heart made of multilingual expressions of love"></canvas>
+    </main>
+
+    <div class="controls" aria-label="Animation controls">
+      <button class="control-button" id="pause-button" type="button" aria-label="Pause animation" title="Pause animation">
+        <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 5v14M16 5v14" />
+        </svg>
+        <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m8 5 11 7-11 7V5Z" />
+        </svg>
+      </button>
+      <button class="control-button" id="replay-button" type="button" aria-label="Replay animation" title="Replay animation">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 12a9 9 0 1 0 2.64-6.36L3 8" />
+          <path d="M3 3v5h5" />
+        </svg>
+      </button>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
